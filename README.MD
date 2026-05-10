@@ -72,7 +72,7 @@ LEGAL_AI_ASSISTANT/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/ayanmitra07/GenAI-Legal-Assistant.git
+git clone https://github.com/ayanmitra07/LEGAL_AI_ASSISTANT.git
 cd LEGAL_AI_ASSISTANT
 ```
 
