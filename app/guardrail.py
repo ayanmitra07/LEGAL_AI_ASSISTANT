@@ -29,7 +29,7 @@ def check_guardrails(query: str):
     # If query contains crime word BUT also safe/legal context → ALLOW
     if any(c in query_norm for c in crime_words):
         if any(s in query_norm for s in safe_context_keywords):
-            return True, None  # ✅ Allow
+            return True, None  #Allow
 
     # ------------------------------------------------------------
     # STEP 2 — BLOCK CLEAR MALICIOUS INTENT
